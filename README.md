@@ -18,4 +18,4 @@ The data has been split into training and validation set and the metric used to 
 ### Approach followed to find the best model:
 For each category of models we tried 2,3 different parameters with a train and validation set which gave us 2-3 different models for each algorithm. From these we selected the ones with lowest RMSE. This gave us different candidate models. So we had 6 different candidate models, one from each algorithm. From these we then selected the one with the lowest RMSE as our final model. We then used this final model to check for the RMSE on the test set.
 
-#### For the details of the preprocessing done and in-depth analysis of each of these model, please refer to the final report in the repo.
+#### Our winning model is the Multivariate Prophet with one regressor (Median Mortage Rate) with the RMSE score of 7257.67 on the test set. For the details of the preprocessing done and in-depth analysis of each of these model, please refer to the final report in the repo.
